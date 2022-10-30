@@ -12,7 +12,7 @@ public class HS_Security {
  * GUI
  * Create the GUI for the program
  */
-class GUI {
+class a {
     private static Font ComicSans = new Font("Comic Samns MS", Font.PLAIN, 14);
 
     private static JFrame window = new JFrame();
@@ -77,7 +77,7 @@ class Calcs {
         if (percentage <= 0 && percentage > 100) {
             percentage = percentage * 100;
             int aux = percentage / value;
-
+            System.out.println(aux);
 
             return value;
         }
